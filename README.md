@@ -2,4 +2,5 @@
 
 Backend for e commerce store created in node
 
-Heroku deplay - Dec 5, 21 - 17:07
+GitHub deploy - Dec 5, 21 - 17:13
+Heroku deploy - Dec 5, 21 - 17:07
