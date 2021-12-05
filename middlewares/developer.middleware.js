@@ -3,7 +3,7 @@ exports.developer_verification = (req, res, next) => {
     const devToken = req.headers.authorization;
     console.log(devToken);
 
-    if (devToken == process.env.DEV_SECRET) {
+    if (devToken == 'sudesh') {
       next();
     } else {
       return res.status(401).json({
