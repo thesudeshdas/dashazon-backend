@@ -11,7 +11,7 @@ exports.user_list_get = async (req, res) => {
     res.status(200).json({
       title: 'Users List',
       success: true,
-      message: 'Fetching user list was successful, enjoy ;)',
+      message: 'Fetching user list was successful.',
       usersList: sanitisedUsersList,
     });
   } catch (err) {
