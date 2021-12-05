@@ -1,1 +1,0 @@
-web: DEBUG=e-ecommerce-backend-v2:* npm run devstart
