@@ -6,7 +6,11 @@ const Product = require('../models/product.model');
 
 const middlewares = require('../middlewares/developer.middleware');
 
-router.get('/', product_controller.product_list_get);
+router.get(
+  '/',
+  middlewares.developer_verification,
+  product_controller.product_list_get
+);
 router.post(
   '/',
   middlewares.developer_verification,
